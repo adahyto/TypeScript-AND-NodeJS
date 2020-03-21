@@ -1,10 +1,10 @@
-import app from './App'
+import app from "./App";
 
-const port = 3000
+const port = 3000;
 
-app.listen(port, (err)=>{
-  if(err){
-    return console.log(err)
+app.listen(port, err => {
+  if (err) {
+    return console.log(err);
   }
-  return console.log(`server listening on port ${port}`)
-})
+  return console.log(`server listening on port ${port}`);
+});
